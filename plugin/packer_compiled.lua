@@ -114,6 +114,16 @@ _G.packer_plugins = {
     path = "/home/michellemoorree/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/michellemoorree/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/michellemoorree/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["markdown-preview.nvim"] = {
     loaded = true,
     path = "/home/michellemoorree/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",

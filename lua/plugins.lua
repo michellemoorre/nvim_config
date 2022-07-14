@@ -37,7 +37,9 @@ return require('packer').startup(function(use)
         },
         tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
+    use "lukas-reineke/indent-blankline.nvim"
     use "glepnir/dashboard-nvim"
+    use "nvim-lualine/lualine.nvim"
     use({
         "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,

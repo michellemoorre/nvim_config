@@ -10,7 +10,11 @@ local options = {
 	sidescrolloff = 8,
 	expandtab = true,
 	shiftwidth = 4,
-	tabstop = 4 
+	tabstop = 4,
+    showmode = false,
+    splitright = true,
+    splitbelow = true,
+    updatetime = 300
 }
 
 vim.opt.shortmess:append "c"
