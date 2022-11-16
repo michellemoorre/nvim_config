@@ -15,6 +15,10 @@ return require('packer').startup(function(use)
     use "neovim/nvim-lspconfig"
     use "williamboman/nvim-lsp-installer"
 
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    }
     use "wbthomason/packer.nvim"
     use "nvim-lua/popup.nvim"
     use "nvim-lua/plenary.nvim"
@@ -46,7 +50,6 @@ return require('packer').startup(function(use)
     })
     use "windwp/nvim-autopairs"
 
-    use "L3MON4D3/LuaSnip"
     use 'saadparwaiz1/cmp_luasnip'
     use "hrsh7th/cmp-nvim-lsp"
     use "hrsh7th/cmp-nvim-lua"
